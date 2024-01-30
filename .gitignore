@@ -23,6 +23,9 @@
 *.gch
 
 # Exec
-a.out
+claptrap
+scavtrap
+fragtrap
+diamondtrap
 .nfs*
 

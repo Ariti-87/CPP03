@@ -1,8 +1,8 @@
-NAME		:= claptrap
+NAME		:= fragtrap
 
 #SOURCES_____________________________________________________________
 
-SRCS		:=	main.cpp ClapTrap.cpp
+SRCS		:=	main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 
 #OBJECT______________________________________________________________
 

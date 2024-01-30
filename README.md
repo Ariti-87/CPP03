@@ -3,8 +3,6 @@
 https://en.cppreference.com/w/
 https://cplusplus.com/
 
-[LESSON](docs/lesson.cpp)
-
 # C++ Module 03 - SUBJECT
 
 ![Image](img/en.subject_page-0001.jpg)
