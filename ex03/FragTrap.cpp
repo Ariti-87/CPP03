@@ -2,7 +2,9 @@
 
 FragTrap::FragTrap()
 {
-	std::cout << "Object " << MAGENTA << "FragTrap " << RESET << "has been created" << std::endl;
+	this->_attackDamage = 30;
+	this->_hitPoints = 100;
+	std::cout << MAGENTA << "FragTrap " << _name << RESET << " has been created" << std::endl;
 }
 
 FragTrap::FragTrap(std::string name) : ClapTrap(name)

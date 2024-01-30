@@ -2,18 +2,16 @@
 #include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
 #include "FragTrap.hpp"
+#include "DiamondTrap.hpp"
 
 int main()
 {
-	ClapTrap david("David");
-	ClapTrap goliath("Goliath");
+	ClapTrap pi("Pi");
 	ScavTrap sin("Sin");
 	FragTrap cos("Cos");
-
-	cos.attack("Goliath");
-	cos.takeDamage(10);
-	cos.beRepaired(10);
-	cos.highFivesGuys();
+	DiamondTrap tan("Tan");
+	tan.whoAmI();
+	tan.print();
 
 	return 0;
 }

@@ -2,7 +2,8 @@
 
 ScavTrap::ScavTrap()
 {
-	std::cout << "Object " << CYAN << "ScavTrap " << RESET << "has been created" << std::endl;
+	this->_energyPoints = 50;
+	std::cout << CYAN << "ScavTrap " << _name << RESET << " has been created" << std::endl;
 }
 
 ScavTrap::ScavTrap(std::string name) : ClapTrap(name)
