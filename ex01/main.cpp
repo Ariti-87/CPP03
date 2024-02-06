@@ -11,7 +11,6 @@ int main()
 	david.attack("Goliath");
 	sin.attack("Goliath");
 	sin.takeDamage(10);
-	// sin.beRepaired(10);
 	sin.guardGate();
 
 	ScavTrap cos("Cos");

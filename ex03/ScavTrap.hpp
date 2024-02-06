@@ -12,7 +12,7 @@ class ScavTrap : virtual public ClapTrap
 	ScavTrap(std::string myName);
 	~ScavTrap();
 	ScavTrap(ScavTrap const& toCopy);
-	virtual void attack(const std::string& target);
+	void attack(const std::string& target);
 	void guardGate();
 	ScavTrap& operator=(ScavTrap const& toCopy);
 

@@ -10,6 +10,7 @@ int main()
 	ScavTrap sin("Sin");
 	FragTrap cos("Cos");
 	DiamondTrap tan("Tan");
+	tan.attack("Sin");
 	tan.whoAmI();
 	tan.print();
 
