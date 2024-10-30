@@ -20,7 +20,7 @@ ScavTrap::~ScavTrap()
 
 void ScavTrap::attack(const std::string& target)
 {
-		if (_energyPoints > 0 && _hitPoints > 0)
+	if (_energyPoints > 0 && _hitPoints > 0)
 	{
 		_energyPoints--;
 		std::cout << CYAN << "ScavTrap " << _name << RESET << " attacks " << target << " , causing ";
